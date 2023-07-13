@@ -13,7 +13,6 @@
     color: #928B7B;
     margin-right: 45px;
     font-weight: 600;
-  
 }
 .menu-item:hover{
     font-size: 11px;
@@ -49,7 +48,7 @@
     float: right;
 }
 .section-one{
-    width: 100%;
+    width: 100vw;
     height: 1200px;
     background: linear-gradient(180deg,rgb(132, 121, 104), rgba(231, 219, 195, 1));
     margin: 0;
@@ -58,7 +57,9 @@
 .container-one{
     text-align: center;
     padding-top: 100px;
-    margin-left: -30px;
+    margin: 0 auto;
+    position: relative;
+    width: 100vw;
 }
 .title-one{
     color: #A5E8F5;
@@ -67,7 +68,7 @@
     margin: 0;
     padding-top: 200px;
     position: absolute;
-    margin: -60px 0 0 581px;
+    margin: -60px 0 0 541px;
 
 }
 .title-two{
@@ -75,73 +76,203 @@
     font-size: 124.032px;
     font-weight: 600;
     position: absolute;
-    margin: 190px 0 0 300px;
+    margin: 190px 0 0 260px;
 }
 .title-three{
     color: #177C90;
     font-size: 186.048px;
     font-weight: 700;
     position: absolute;
-    margin: 270px 0 0 492px;
+    margin: 270px 0 0 452px;
 }
 .title-four{
     color: #064855;
     font-size: 248.064px;
     font-weight: 800;
-    margin: 400px 0 0 294px;
+    margin: 400px 0 0 254px;
     position: absolute;
 }
 .copy-one{
     width: 400px;
     text-align: left;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 18px;
     position: absolute;
-    margin: 230px 0 0 745px;
+    margin: 230px 0 0 705px;
 }
 .copy-one-bis{
     width: 400px;
     text-align: left;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 18px;
     position: absolute;
-    margin: 266px 0 0 745px;
+    margin: 266px 0 0 705px;
 }
 .copy-two{
     width: 300px;
     text-align: right;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 18px;
     position: absolute;
-    margin: 340px 0 0 190px;
+    margin: 340px 0 0 150px;
 }
 .copy-three{
     width: 400px;
     text-align: left;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 18px;
     position: absolute;
-    margin: 485px 0 0 930px;
+    margin: 485px 0 0 890px;
 }
 .copy-four{
     width: 440px;
     text-align: left;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 18px;
     position: absolute;
-    margin: 680px 0 0 304px;
+    margin: 680px 0 0 264px;
 }
 .boxes-two{
     float: right;
     padding-top: 800px;
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1261px){
+    .section-one{
+        height: 1000px;
+    }
+    .title-one{
+        font-size: 70px;
+        margin: -60px 0 0 430px;
+    }
+    .title-two{
+        font-size: 110px;
+        margin: 190px 0 0 181px;
+    }
+    .title-three{
+        font-size: 140px;
+        margin: 270px 0 0 352px;
+    }
+    .title-four{
+        font-size: 200px;
+        margin: 370px 0 0 172px;
+    }
+    .copy-one{
+        width: 400px;
+        font-size: 13px;
+        line-height: 16px;
+        margin: 230px 0 0 575px;
+    }
+    .copy-one-bis{
+        width: 400px;
+        font-size: 13px;
+        line-height: 16px;
+        margin: 262px 0 0 575px;
+    }
+    .copy-two{
+        width: 270px;
+        font-size: 13px;
+        line-height: 16px;
+        margin: 324px 0 0 80px;
+    }
+    .copy-three{
+        width: 360px;
+        font-size: 13px;
+        line-height: 16px;
+        margin: 438px 0 0 685px;
+    }
+    .copy-four{
+        width: 440px;
+        font-size: 13px;
+        line-height: 16px;
+        margin: 596px 0 0 180px;
+    }
+    .boxes-two{
+        padding-top: 650px;
+    }
+    
+
+}
+@media only screen and (min-width: 900px) and (max-width: 1080px){
+    .background-img{
+        width: 100vw;
+        height: 700px;
+    }
+    .menu{
+        padding-left: 500px;
+    }
+    .menu-item{
+        margin-right: 20px;
+    }
+    .menu-item:hover{
+        margin-right: 20px;
+    }
+    .home-title{
+        font-size: 30px;
+        margin-top: 420px;
+        margin-left: 500px;
+    }
+    .home-text{
+        padding-top: 178px;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .section-one{
+        height: 950px;
+    }
+    .title-one{
+        font-size: 60px;
+        margin: -60px 0 0 330px;
+    }
+    .title-two{
+        font-size: 90px;
+        margin: 186px 0 0 127px;
+    }
+    .title-three{
+        font-size: 120px;
+        margin: 250px 0 0 269px;
+    }
+    .title-four{
+        font-size: 160px;
+        margin: 340px 0 0 142px;
+    }
+    .copy-one{
+        width: 380px;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 212px 0 0 450px;
+    }
+    .copy-one-bis{
+        width: 380px;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 242px 0 0 450px;
+    }
+    .copy-two{
+        width: 180px;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 295px 0 0 86px;
+    }
+    .copy-three{
+        width: 330px;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 388px 0 0 555px;
+    }
+    .copy-four{
+        width: 440px;
+        font-size: 13px;
+        line-height: 15px;
+        margin: 526px 0 0 148px;
+    }
+    .boxes-two{
+        padding-top: 600px;
+    }
 }
