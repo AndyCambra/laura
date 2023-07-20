@@ -488,3 +488,55 @@
     }
   
 }
+@media only screen and (min-width: 300px) and (max-width: 899px){
+    .section-two{
+        background-image: url(../../../public/img/Sizes.png);
+        width: 100vw;
+        height: 1000px;
+        background-size: cover;
+        margin: 0;
+        text-align: center;
+    }
+    .big-box{
+        padding: 0 40px;
+        text-align: center;
+    }
+    .xs{
+        margin-top: 170px;
+        margin-left: 0;
+    }
+    .size-text{
+        font-size: 16px;
+        text-align: center;
+        line-height: 16px;
+    }
+    .sm{
+        margin-top: 330px;
+        margin-left: 0px;
+    }
+    .md{
+        margin-top: 470px;
+        margin-left: 0px;
+    }
+    .lg{
+        margin-top: 640px;
+        margin-left: 0px;
+    }
+    .xl{
+        margin-top: 790px;
+        margin-left: 0px;
+    }
+    .boxes-xs .boxes-sm .boxes-md .boxes-lg .boxes-xl{
+        display: none;
+    }
+    .footer-bubble{
+        width: 60%;
+        padding:0;
+    }
+    .mail{
+        margin-top: -40px;
+        margin-left: 170px;
+    }
+
+    
+}

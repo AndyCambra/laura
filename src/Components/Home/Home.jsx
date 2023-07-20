@@ -5,7 +5,8 @@ import SectionTwo from './SectionTwo'
 import Boxes from '../Utils/Boxes'
 import MultiplyObserver from '../Utils/MultiplyObserver'
 import Footer from './Footer'
-
+import { BrowserView, MobileView } from 'react-device-detect';
+import HomeMobile from './HomeMobile'
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
     
   return (
     <>
+    <BrowserView>
     <div className='background-img'>
         <div className='menu'>
         <Link><h4 className='menu-item' onClick={() => handleClick(secOneRef)} >SOBRE MI</h4></Link>
@@ -39,7 +41,7 @@ const Home = () => {
     <section className='section-one' ref={secOneRef}>
         <div className='container-one' >
             <MultiplyObserver className="title-one"/>
-            <p className='copy-one'>En diferentes formatos, para diversos soportes y para distintas audiencias.</p>
+            <p className='copy-one-mobile'>En diferentes formatos, para diversos soportes y para distintas audiencias.</p>
             <p className='copy-one-bis'>Porque cada forma cumple con un objetivo, cada soporte tiene su lenguaje, cada medio tiene su audiencia. </p>
             <MultiplyObserver className="title-two"/>
             <p className='copy-two'>Porque cada texto me desafía a construír una idea que capture al receptor. </p>
@@ -52,6 +54,10 @@ const Home = () => {
     </section>
    <SectionTwo ref={secTwoRef} />
    <Footer ref={footerRef} />
+   </BrowserView>
+   <MobileView>
+    <HomeMobile handleClick={handleClick} secOneRef={secOneRef} secTwoRef={secTwoRef} footerRef={footerRef}/>
+   </MobileView>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React, {forwardRef}  from 'react'
 import Boxes from '../Utils/Boxes'
+import { isMobile } from 'react-device-detect'
 
 const SectionTwo =forwardRef((props, ref)=> {
 
@@ -13,7 +14,7 @@ const SectionTwo =forwardRef((props, ref)=> {
             <p className='size-text'>que define un concepto y una identidad.</p>
             <p className='see-more'>ver más...</p>
             </div>
-            <Boxes classNameBoxes="boxes-xs" sizeXs="XS"/>
+           {isMobile? null : <Boxes classNameBoxes="boxes-xs" sizeXs="XS"/>} 
         </div>
         <div className='big-box'>
             <div className='sm'>
@@ -22,7 +23,7 @@ const SectionTwo =forwardRef((props, ref)=> {
             <p className='size-text'>Impacto. Potencia. Recordación.</p>
             <p className='see-more'>ver más...</p>
             </div>
-            <Boxes classNameBoxes="boxes-sm" sizeS="S"/>
+            {isMobile? null :<Boxes classNameBoxes="boxes-sm" sizeS="S"/>}
         </div>
         <div className='big-box'>
         <div className='md'>
@@ -31,7 +32,7 @@ const SectionTwo =forwardRef((props, ref)=> {
             <p className='size-text'>y las palabras se ponen en movimiento. </p>
             <p className='see-more'>ver más...</p>
             </div>
-            <Boxes classNameBoxes="boxes-md" sizeM="M"/>
+            {isMobile? null :<Boxes classNameBoxes="boxes-md" sizeM="M"/>}
         </div>
         <div className='big-box'>
         <div className='lg'>
@@ -40,7 +41,7 @@ const SectionTwo =forwardRef((props, ref)=> {
             <p className='size-text'>un argumento o para definir una normativa.</p>
             <p className='see-more'>ver más...</p>
             </div>
-            <Boxes classNameBoxes="boxes-lg" sizeL="L"/>
+            {isMobile? null :<Boxes classNameBoxes="boxes-lg" sizeL="L"/>}
         </div>
         <div className='big-box'>
         <div className='xl'>
@@ -49,7 +50,7 @@ const SectionTwo =forwardRef((props, ref)=> {
             <p className='size-text'>o de saberes únicos.</p>
             <p className='see-more'>ver más...</p>
             </div>
-            <Boxes classNameBoxes="boxes-xl" sizeXl="XL"/>
+            {isMobile? null :<Boxes classNameBoxes="boxes-xl" sizeXl="XL"/>}
         </div>
     </section>
   )

@@ -1,0 +1,91 @@
+.background-mobile{
+    background-color: #010101;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.home-bubble{
+    width: 100%;
+    margin: 50px 0 0 -100px;
+}
+.home-mobile-title{
+    font-size: 24px;
+    font-weight: 300;
+    color: #2FA5BE;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 220px;
+}
+.menu-mobile{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu-item-mobile{
+    font-size: 11px;
+    color: #928B7B;
+    margin-right: 25px;
+    font-weight: 600;
+}
+.menu-item-mobile:hover{
+    font-size: 11px;
+    color: #e0d4b9;
+    margin-right: 25px;
+    font-weight: 600;
+}
+.home-text-mobile{
+    margin-top: 240px
+}
+.boxes-mobile{
+margin-top: 400px;
+float: right;
+}
+.section-one-mobile{
+    width: 100vw;
+    height: 900px;
+    background: linear-gradient(180deg,rgb(132, 121, 104), rgba(231, 219, 195, 1));
+    margin: 0;
+    padding: 0;
+}
+.container-one-mobile{
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.title-one-mobile{
+    color: #A5E8F5;
+    font-size: 35px;
+    font-weight: 500;   
+    margin: 0 0 -15px 0;
+    padding: 100px 0 0 0;
+}
+.title-two-mobile{
+    color: #2FA5BE;
+    font-size: 50px;
+    font-weight: 600;
+    margin: -10px 0 -20px 0;
+}
+.title-three-mobile{
+    color: #177C90;
+    font-size: 70px;
+    font-weight: 700;
+    margin: -15px 0 -30px 0;
+}
+.title-four-mobile{
+    color: #064855;
+    font-size: 90px;
+    font-weight: 800;
+    margin: -20px 0 -40px 0;
+}
+.copy-one-mobile{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    padding: 0 10px;
+}
+.boxes-two-mobile{
+    float: right;
+    margin-top: 20px;
+}
