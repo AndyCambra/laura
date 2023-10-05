@@ -5,7 +5,9 @@ import SectionTwo from './SectionTwo'
 import Boxes from '../Utils/Boxes'
 import MultiplyObserver from '../Utils/MultiplyObserver'
 import Footer from './Footer'
+
 import { MobileOnlyView } from 'react-device-detect';
+
 import HomeMobile from './HomeMobile'
 
 
@@ -29,7 +31,7 @@ const Home = () => {
         <Link><h4 className='menu-item' onClick={() => handleClick(secTwoRef)}>TRABAJOS</h4></Link>
         <Link><h4 className='menu-item' onClick={() => handleClick(footerRef)}>CONTACTO</h4></Link>
         </div>
-        <h2 className='home-title'>Laura Cambra</h2>
+        <h2 className='home-title'>Laura Cambra Browser</h2>
         <div className='home-text'>
             <p className='text'>Copywriting</p>
             <p className='text'>Ghostwriting</p>
@@ -52,10 +54,10 @@ const Home = () => {
         <Boxes classNameBoxes='boxes-two' />
     </section>
    <SectionTwo ref={secTwoRef} />
-   <Footer ref={footerRef} />
-   <MobileOnlyView >
+   <Footer ref={footerRef} /> 
+   <MobileOnlyView>
     <HomeMobile handleClick={handleClick} secOneRef={secOneRef} secTwoRef={secTwoRef} footerRef={footerRef}/>
-   </MobileOnlyView >
+   </MobileOnlyView>
     </>
   )
 }

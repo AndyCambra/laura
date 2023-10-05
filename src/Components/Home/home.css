@@ -639,7 +639,7 @@
     }
 
 }
-@media only screen and (min-width: 900px) and (max-width: 1080px){
+@media only screen and (min-width: 768px) and (max-width: 1080px){
     .background-img{
         width: 100vw;
         height: 700px;
@@ -672,49 +672,49 @@
     }
     .title-one{
         font-size: 60px;
-        margin: -60px 0 0 330px;
+        margin: -60px 0 0 280px;
     }
     .title-two{
         font-size: 90px;
-        margin: 186px 0 0 127px;
+        margin: 186px 0 0 77px;
     }
     .title-three{
         font-size: 120px;
-        margin: 250px 0 0 269px;
+        margin: 250px 0 0 219px;
     }
     .title-four{
         font-size: 160px;
-        margin: 340px 0 0 142px;
+        margin: 340px 0 0 92px;
     }
     .copy-one{
-        width: 380px;
+        width: 350px;
         font-size: 12px;
-        line-height: 15px;
-        margin: 212px 0 0 450px;
+        line-height: 14px;
+        margin: 212px 0 0 400px;
     }
     .copy-one-bis{
-        width: 380px;
+        width: 350px;
         font-size: 12px;
-        line-height: 15px;
-        margin: 242px 0 0 450px;
+        line-height: 14px;
+        margin: 242px 0 0 400px;
     }
     .copy-two{
         width: 180px;
-        font-size: 12px;
-        line-height: 15px;
-        margin: 295px 0 0 86px;
+        font-size: 13px;
+        line-height: 14px;
+        margin: 295px 0 0 36px;
     }
     .copy-three{
-        width: 330px;
-        font-size: 12px;
-        line-height: 15px;
-        margin: 388px 0 0 555px;
+        width: 280px;
+        font-size: 11px;
+        line-height: 14px;
+        margin: 388px 0 0 505px;
     }
     .copy-four{
         width: 440px;
         font-size: 13px;
-        line-height: 15px;
-        margin: 526px 0 0 148px;
+        line-height: 14px;
+        margin: 526px 0 0 98px;
     }
     .boxes-two{
         padding-top: 600px;
@@ -767,7 +767,7 @@
     }
   
 }
-@media only screen and (min-width: 300px) and (max-width: 899px){
+@media only screen and (min-width: 300px) and (max-width: 767px){
     .section-two{
         background-image: url(../../../public/img/Sizes.png);
         width: 100vw;
