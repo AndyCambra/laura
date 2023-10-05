@@ -33,10 +33,10 @@ const Small = () => {
           <InnerHeader />
           <div className="img-container">
             <div>
-              <div className="img-box">
+              <div className="img-box-small">
                 {firstLine.map((item, key) => {
                   return (
-                    <div className="single-box" key={key}>
+                    <div className="single-box-small" key={key}>
                       <img src={item} alt="" />
                     </div>
                   );
@@ -44,10 +44,10 @@ const Small = () => {
               </div>
             </div>
             <div>
-              <div className="img-box">
+              <div className="img-box-small">
                 {secondLine.map((item, key) => {
                   return (
-                    <div className="single-box" key={key}>
+                    <div className="single-box-small" key={key}>
                       <img src={item} alt="" />
                     </div>
                   );
@@ -55,10 +55,10 @@ const Small = () => {
               </div>
             </div>
             <div>
-              <div className="img-box">
+              <div className="img-box-small">
                 {thirdLine.map((item, key) => {
                   return (
-                    <div className="single-box" key={key}>
+                    <div className="single-box-small" key={key}>
                       <img src={item} alt="" />
                     </div>
                   );
