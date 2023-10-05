@@ -5,7 +5,9 @@ import SectionTwo from './SectionTwo'
 import Boxes from '../Utils/Boxes'
 import MultiplyObserver from '../Utils/MultiplyObserver'
 import Footer from './Footer'
-import { BrowserView, MobileView, TabletView, MobileOnlyView } from 'react-device-detect';
+
+import { MobileOnlyView } from 'react-device-detect';
+
 import HomeMobile from './HomeMobile'
 
 
@@ -23,7 +25,6 @@ const Home = () => {
     
   return (
     <>
-  
     <div className='background-img'>
         <div className='menu'>
         <Link><h4 className='menu-item' onClick={() => handleClick(secOneRef)} >SOBRE MI</h4></Link>
@@ -53,12 +54,10 @@ const Home = () => {
         <Boxes classNameBoxes='boxes-two' />
     </section>
    <SectionTwo ref={secTwoRef} />
-   <Footer ref={footerRef} />
-  
+   <Footer ref={footerRef} /> 
    <MobileOnlyView>
     <HomeMobile handleClick={handleClick} secOneRef={secOneRef} secTwoRef={secTwoRef} footerRef={footerRef}/>
    </MobileOnlyView>
-  
     </>
   )
 }
