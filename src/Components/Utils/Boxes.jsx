@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Boxes = ({classNameBoxes, sizeXs, sizeS, sizeM, sizeL, sizeXl}) => {
+const Boxes = ({classNameBoxes, sizeXs, sizeL,sizeM, sizeS, sizeXl}) => {
   return (
     <div className={classNameBoxes}>  
     <div className='square square-color-one'>{sizeXs}</div>

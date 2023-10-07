@@ -1,0 +1,76 @@
+{ "sizes":[
+    
+ {
+        "id":2,
+        "size": "S",
+        "copy": " Foco, emoción, precisión y fuerza: <br>la comunicación asertiva que se destaca en un mundo sobreestimulado.",
+        "firstLine" : [
+           "/img/Small/Small1.png",
+            "/img/Small/Small2.png",
+            "/img/Small/Small3.png"
+        ],
+        "secondLine" : [
+            "/img/Small/Small4.png",
+            "/img/Small/Small5.png",
+            "/img/Small/Small6.png",
+            "/img/Small/Small7.png"
+        ],
+        "thirdLine" : [
+            "/img/Small/Small8.png",
+            "/img/Small/Small9.png",
+            "/img/Small/Small10.png"
+        ]
+    },
+    {
+        "id":1,
+        "size": "SX",
+        "copy": " Foco, emoción, precisión y fuerza: <br>la comunicación asertiva que se destaca en un mundo sobreestimulado.",
+        "firstLine" : [
+            "/img/XS/xs1.png",
+            "/img/XS/xs2.png",
+            "/img/XS/xs4.png",
+            "/img/XS/xs5.png"
+          ],
+          "secondLine" : [
+            "/img/XS/xs3.png",
+            "/img/XS/xs6.png",
+            "/img/XS/xs11.png"
+          ],
+          "thirdLine" : [
+            "/img/XS/xs12.png",
+            "/img/XS/xs10.png",
+            "/img/XS/xs9.png",
+            "/img/XS/xs8.png",
+            "/img/XS/xs7.png"
+          ]
+    },
+    {
+        "id":3,
+        "size": "M",
+        "copy": " Foco, emoción, precisión y fuerza: <br>la comunicación asertiva que se destaca en un mundo sobreestimulado.",
+        "firstLine" : [
+            "/img/XS/xs1.png",
+            "/img/XS/xs2.png",
+            "/img/XS/xs4.png",
+            "/img/XS/xs5.png"
+          ],
+          "secondLine" : [
+            "/img/XS/xs3.png",
+            "/img/XS/xs6.png",
+            "/img/XS/xs11.png"
+          ],
+          "thirdLine" : [
+            "/img/XS/xs12.png",
+            "/img/XS/xs10.png",
+            "/img/XS/xs9.png",
+            "/img/XS/xs8.png",
+            "/img/XS/xs7.png"
+          ],
+          "forthLine" : [
+            "/img/XS/xs3.png",
+            "/img/XS/xs6.png",
+            "/img/XS/xs11.png"
+          ]
+    }
+]
+}

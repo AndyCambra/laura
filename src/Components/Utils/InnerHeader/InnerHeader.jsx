@@ -1,41 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
-const InnerHeader = () => {
-  const location = useLocation();
+
+const InnerHeader = ({size}) => {
+  
+  const {id} = useParams()
+ 
   return (
     <div className="inner-header">
-      <Link
-        to="/xs"
-        className={location.pathname === "/xs" ? "active" : "inner-items"}
-      >
-        XS
-      </Link>
-      <Link
-        to="/s"
-        className={location.pathname === "/s" ? "active" : "inner-items"}
-      >
-        S
-      </Link>
-      <Link
-        to="/m"
-        className={location.pathname === "/m" ? "active" : "inner-items"}
-      >
-        M
-      </Link>
-      <Link
-        to="/l"
-        className={location.pathname === "/l" ? "active" : "inner-items"}
-      >
-        L
-      </Link>
-      <Link
-        to="/xl"
-        className={location.pathname === "/xl" ? "active" : "inner-items"}
-      >
-        XL
-      </Link>
+      <Link className={parseInt(id) === 1 ? "active" : "inner-items"} to='/sizes/1'>SX</Link>
+      <Link className={parseInt(id) === 2 ? "active" : "inner-items"} to='/sizes/2'>S</Link>
+      <Link className={parseInt(id) === 3 ? "active" : "inner-items"} to='/sizes/3'>M</Link>
+      <Link className={parseInt(id) === 4 ? "active" : "inner-items"} to='/sizes/4'>L</Link>
+      <Link className={parseInt(id) === 5 ? "active" : "inner-items"} to='/sizes/5'>XL</Link>
     </div>
   );
 };
