@@ -11,7 +11,7 @@ const SectionTwo = forwardRef((props, ref) => {
           <p className="size-text">El nombre de un producto.</p>
           <p className="size-text">La línea de llegada de un proceso</p>
           <p className="size-text">que define un concepto y una identidad.</p>
-          <Link to='/xs'><p className="see-more">ver más...</p></Link>
+          <Link to='/sizes/1'><p className="see-more">ver más...</p></Link>
         </div>
         {isMobile ? null : <Boxes classNameBoxes="boxes-xs" sizeXs="XS" />}
       </div>
@@ -20,7 +20,7 @@ const SectionTwo = forwardRef((props, ref) => {
           <p className="size-text">Un titular. Un copy.</p>
           <p className="size-text">Un post en redes.</p>
           <p className="size-text">Impacto. Potencia. Recordación.</p>
-          <Link to="/s"><p className="see-more">ver más...</p></Link>
+          <Link to='/sizes/2'><p className="see-more">ver más...</p></Link>
         </div>
         {isMobile ? null : <Boxes classNameBoxes="boxes-sm" sizeS="S" />}
       </div>
@@ -29,7 +29,7 @@ const SectionTwo = forwardRef((props, ref) => {
           <p className="size-text">El guión de un comercial de radio o TV. </p>
           <p className="size-text">Allí donde la letra se hace voz</p>
           <p className="size-text">y las palabras se ponen en movimiento. </p>
-          <p className="see-more">ver más...</p>
+          <Link to='/sizes/3'><p className="see-more">ver más...</p></Link>
         </div>
         {isMobile ? null : <Boxes classNameBoxes="boxes-md" sizeM="M" />}
       </div>
@@ -42,7 +42,7 @@ const SectionTwo = forwardRef((props, ref) => {
           <p className="size-text">
             un argumento o para definir una normativa.
           </p>
-          <p className="see-more">ver más...</p>
+          <Link to='/sizes/4'><p className="see-more">ver más...</p></Link>
         </div>
         {isMobile ? null : <Boxes classNameBoxes="boxes-lg" sizeL="L" />}
       </div>
@@ -51,7 +51,7 @@ const SectionTwo = forwardRef((props, ref) => {
           <p className="size-text">Un libro. El despliegue de una pasión,</p>
           <p className="size-text">de una experiencia singular </p>
           <p className="size-text">o de saberes únicos.</p>
-          <p className="see-more">ver más...</p>
+          <Link to='/sizes/5'><p className="see-more">ver más...</p></Link>
         </div>
         {isMobile ? null : <Boxes classNameBoxes="boxes-xl" sizeXl="XL" />}
       </div>
