@@ -167,7 +167,9 @@
 }
 .boxes-xs {
   margin-top: 500px;
-  float: right;
+  z-index: 2;
+  position: absolute;
+  margin-left: calc(100vw - 92px);
 }
 .square {
   width: 33px;
@@ -194,7 +196,7 @@
   background-color: #686257;
 }
 .square-color-five {
-  background-color: #3d3a34;
+  background-color: #49463e;
 }
 .see-more {
   color: #177c90;
@@ -204,42 +206,46 @@
 .sm {
   position: absolute;
   margin-top: 1000px;
-  margin-left: 600px;
+  margin-left: 550px;
 }
 .boxes-sm {
-  float: right;
+  z-index: 2;
+  position: absolute;
+  margin-left: calc(100vw - 92px);
   margin-top: 930px;
-  margin-right: -33px;
 }
 .md {
   position: absolute;
   margin-top: 1600px;
-  margin-left: 400px;
+  margin-left: 300px;
 }
 .boxes-md {
-  float: right;
+  z-index: 2;
+  position: absolute;
+  margin-left: calc(100vw - 92px);
   margin-top: 1550px;
-  margin-right: -33px;
 }
 .lg {
   position: absolute;
   margin-top: 2200px;
-  margin-left: 650px;
+  margin-left: 600px;
 }
 .boxes-lg {
-  float: right;
+  z-index: 2;
+  position: absolute;
+  margin-left: calc(100vw - 92px);
   margin-top: 2150px;
-  margin-right: -33px;
 }
 .xl {
   position: absolute;
   margin-top: 2660px;
-  margin-left: 550px;
+  margin-left: 500px;
 }
 .boxes-xl {
-  float: right;
+  z-index: 2;
+  position: absolute;
+  margin-left: calc(100vw - 92px);
   margin-top: 2600px;
-  margin-right: -33px;
 }
 .footer-background {
   background-color: #010101;

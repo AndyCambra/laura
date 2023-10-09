@@ -1,76 +1,135 @@
-{ "sizes":[
-    
- {
-        "id":2,
-        "size": "S",
-        "copy": " Foco, emoción, precisión y fuerza: <br>la comunicación asertiva que se destaca en un mundo sobreestimulado.",
-        "firstLine" : [
-           "/img/Small/Small1.png",
-            "/img/Small/Small2.png",
-            "/img/Small/Small3.png"
-        ],
-        "secondLine" : [
-            "/img/Small/Small4.png",
-            "/img/Small/Small5.png",
-            "/img/Small/Small6.png",
-            "/img/Small/Small7.png"
-        ],
-        "thirdLine" : [
-            "/img/Small/Small8.png",
-            "/img/Small/Small9.png",
-            "/img/Small/Small10.png"
-        ]
-    },
-    {
-        "id":1,
-        "size": "SX",
-        "copy": " Foco, emoción, precisión y fuerza: <br>la comunicación asertiva que se destaca en un mundo sobreestimulado.",
-        "firstLine" : [
-            "/img/XS/xs1.png",
-            "/img/XS/xs2.png",
-            "/img/XS/xs4.png",
-            "/img/XS/xs5.png"
-          ],
-          "secondLine" : [
-            "/img/XS/xs3.png",
-            "/img/XS/xs6.png",
-            "/img/XS/xs11.png"
-          ],
-          "thirdLine" : [
-            "/img/XS/xs12.png",
-            "/img/XS/xs10.png",
-            "/img/XS/xs9.png",
-            "/img/XS/xs8.png",
-            "/img/XS/xs7.png"
-          ]
-    },
-    {
-        "id":3,
-        "size": "M",
-        "copy": " Foco, emoción, precisión y fuerza: <br>la comunicación asertiva que se destaca en un mundo sobreestimulado.",
-        "firstLine" : [
-            "/img/XS/xs1.png",
-            "/img/XS/xs2.png",
-            "/img/XS/xs4.png",
-            "/img/XS/xs5.png"
-          ],
-          "secondLine" : [
-            "/img/XS/xs3.png",
-            "/img/XS/xs6.png",
-            "/img/XS/xs11.png"
-          ],
-          "thirdLine" : [
-            "/img/XS/xs12.png",
-            "/img/XS/xs10.png",
-            "/img/XS/xs9.png",
-            "/img/XS/xs8.png",
-            "/img/XS/xs7.png"
-          ],
-          "forthLine" : [
-            "/img/XS/xs3.png",
-            "/img/XS/xs6.png",
-            "/img/XS/xs11.png"
-          ]
-    }
-]
+{
+    "sizes": [
+        {
+            "id": 1,
+            "size": "SX",
+            "copy": "Compendiar, organizar y relacionar una gran cantidad de información para llegar a la síntesis. En el camino, el sentido se consolida, la palabra se transforma en nombre y el nombre comunica identidad.",
+            "firstLine": [
+                "/img/XS/xs1.png",
+                "/img/XS/xs2.png",
+                "/img/XS/xs4.png",
+                "/img/XS/xs5.png"
+            ],
+            "secondLine": [
+                "/img/XS/xs3.png",
+                "/img/XS/xs6.png",
+                "/img/XS/xs11.png"
+            ],
+            "thirdLine": [
+                "/img/XS/xs12.png",
+                "/img/XS/xs10.png",
+                "/img/XS/xs9.png",
+                "/img/XS/xs8.png",
+                "/img/XS/xs7.png"
+            ]
+        },
+        {
+            "id": 2,
+            "size": "S",
+            "copy": "Foco, emoción, precisión y fuerza: <br>la comunicación asertiva que se destaca en un mundo sobreestimulado.",
+            "firstLine": [
+                "/img/Small/Small1.png",
+                "/img/Small/Small2.png",
+                "/img/Small/Small3.png"
+            ],
+            "secondLine": [
+                "/img/Small/Small4.png",
+                "/img/Small/Small5.png",
+                "/img/Small/Small6.png",
+                "/img/Small/Small7.png"
+            ],
+            "thirdLine": [
+                "/img/Small/Small8.png",
+                "/img/Small/Small9.png",
+                "/img/Small/Small10.png"
+            ],
+            "forthLine":[
+                "/img/Small/Small11.png"
+            ]
+        },
+        {
+            "id": 3,
+            "size": "M",
+            "copy": "Un lugar, un tiempo, voces y actitudes para transformar un mensaje en una historia que produce impacto y crea un recuerdo. ",
+            "firstLine": [
+                "/img/Medium/M01.png",
+                "/img/Medium/M02.png",
+                "/img/Medium/M03.png"
+            ],
+            "secondLine": [
+                "/img/Medium/M04.png",
+                "/img/Medium/M06.png"
+            ],
+            "thirdLine": [
+                "/img/Medium/M07.png",
+                "/img/Medium/M08.png",
+                "/img/Medium/M09.png",
+                "/img/Medium/M10.png"
+            ],
+            "forthLine": [
+                "/img/Medium/M11.png",
+                "/img/Medium/M12.png",
+                "/img/Medium/M13.png",
+                "/img/Medium/M14.png"
+            ],
+            "fifthLine": [
+                "/img/Medium/M15.png",
+                "/img/Medium/M16.png",
+                "/img/Medium/M17.png"
+            ],
+            "sixthLine": [
+                "/img/Medium/M18.png",
+                "/img/Medium/M19.png",
+                "/img/Medium/M20.png",
+                "/img/Medium/M21.png"
+            ]
+        },
+        {
+            "id": 4,
+            "size": "L",
+            "copy": "Transmitir ideas complejas, establecer pautas y normativas, organizar procedimientos requiere mantener <br> la perspectiva de conjunto sin desatender los detalles. ",
+            "firstLine": [
+                "/img/Large/L04.png",
+                "/img/Large/L01.png",
+                "/img/Large/L02.png",
+                "/img/Large/L03.png"
+            ],
+            "secondLine": [
+                "/img/Large/L05.png",
+                "/img/Large/L06.png",
+                "/img/Large/L07.png",
+                "/img/Large/L08.png"
+            ],
+            "thirdLine": [
+                "/img/Large/L09.png",
+                "/img/Large/L10.png",
+                "/img/Large/L11.png",
+                "/img/Large/L12.png"
+            ],
+            "forthLine":[
+                "/img/Large/L13.png"
+            ]
+        },
+        {
+            "id": 5,
+            "size": "XL",
+            "copy": "Investigar, consolidar información, definir ideas fuerza y desarrollar un plan para convertir una especialidad, <br>una experiencia <br>o la propia vida <br>en un viaje que enriquezca y conmueva al lector.",
+            "firstLine": [
+                "/img/XLarge/Hagamosfuturo.png",
+                "/img/XLarge/Miverdad.png",
+                "/img/XLarge/Nuevosparadigmas.png",
+                "/img/XLarge/678.png"
+            ],
+            "secondLine": [
+                "/img/XLarge/Olivan.png",
+                "/img/XLarge/Corazonenllamas.png",
+                "/img/XLarge/BluesdelacalleLeiva.png",
+                "/img/XLarge/Callejeros.png"
+            ],
+            "thirdLine": [
+                "/img/XLarge/sueñospostergados.png",
+                "/img/XLarge/FundaciónVictoriaOcampopremiada.png"
+            ]
+        }
+    ]
 }
