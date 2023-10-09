@@ -1,7 +1,13 @@
 .background {
   background: #b1a188;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
+  box-sizing: border-box;
+}
+.long-background{
+  background: #b1a188;
+  width: 100vw;
+  height: 210vh;
   box-sizing: border-box;
 }
 .big-box {
@@ -30,6 +36,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
+}
+.volver{
+  color:#177c90;
+  margin-left: 50px;
+  font-size: 12px;
 }
 .image-section {
   display: grid;
@@ -65,11 +76,6 @@
   grid-column: 1/4;
 }
 .img-box {
-  grid-column: 1/4;
-  display: flex;
-}
-.img-box-small {
-  grid-column: 1/4;
   display: flex;
   margin-top: 24px;
 }
@@ -113,7 +119,28 @@
   width: 300px;
   height: 300px;
 }
+.single-box-m{
+  margin-right: 0;
+  height: 130px;
+}
+.single-box-m-tall{
+  width: 152px;
+  display: flex;
+  margin-right: 12px;
+}
+.single-box-large{
+  width: 162px;
+  display: flex;
+  margin-right: 12px;
+}
+.single-box-large-wide {
+  width: 188px;
+  display: flex;
+  margin-right: 12px;
+}
 .boxes-in-page {
-  float: right;
-  margin-top: -230px;
+  z-index: 2;
+  position: absolute;
+  margin-left: calc(100vw - 33px);
+  margin-top: 450px;
 }

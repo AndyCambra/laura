@@ -5,9 +5,7 @@ import SectionTwo from './SectionTwo'
 import Boxes from '../Utils/Boxes'
 import MultiplyObserver from '../Utils/MultiplyObserver'
 import Footer from './Footer'
-
 import { MobileOnlyView } from 'react-device-detect';
-
 import HomeMobile from './HomeMobile'
 
 
@@ -16,12 +14,13 @@ const Home = () => {
     const secOneRef= useRef(null)
     const secTwoRef= useRef(null)
     const footerRef= useRef(null)
+   
 
     const handleClick = nextRef => {
         setIsActive(!isActive)
         nextRef?.current?.scrollIntoView({ behavior: "smooth" });
       } 
-    
+
     
   return (
     <>
