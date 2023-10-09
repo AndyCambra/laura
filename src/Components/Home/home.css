@@ -206,7 +206,7 @@
 .sm {
   position: absolute;
   margin-top: 1000px;
-  margin-left: 600px;
+  margin-left: 550px;
 }
 .boxes-sm {
   z-index: 2;
@@ -217,7 +217,7 @@
 .md {
   position: absolute;
   margin-top: 1600px;
-  margin-left: 400px;
+  margin-left: 300px;
 }
 .boxes-md {
   z-index: 2;
@@ -228,7 +228,7 @@
 .lg {
   position: absolute;
   margin-top: 2200px;
-  margin-left: 650px;
+  margin-left: 600px;
 }
 .boxes-lg {
   z-index: 2;
@@ -239,7 +239,7 @@
 .xl {
   position: absolute;
   margin-top: 2660px;
-  margin-left: 550px;
+  margin-left: 500px;
 }
 .boxes-xl {
   z-index: 2;
