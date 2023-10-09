@@ -7,7 +7,7 @@ import LineSection from "../Utils/ImgLines/LineSection";
 import { useParams, Link } from 'react-router-dom'
 import Footer from "../Home/Footer";
 
-const SizesDetail = () => {
+const SizesDetail = ({innerRefs}) => {
   const {id} = useParams()
   const text=sizesPageTexts
   const selectedSize = text.sizes.find(p=> p.id=== parseInt(id))
