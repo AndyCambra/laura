@@ -167,7 +167,9 @@
 }
 .boxes-xs {
   margin-top: 500px;
-  float: right;
+  z-index: 2;
+  position: absolute;
+  margin-left: calc(100vw - 92px);
 }
 .square {
   width: 33px;
@@ -207,9 +209,10 @@
   margin-left: 600px;
 }
 .boxes-sm {
-  float: right;
+  z-index: 2;
+  position: absolute;
+  margin-left: calc(100vw - 92px);
   margin-top: 930px;
-  margin-right: -33px;
 }
 .md {
   position: absolute;
@@ -217,9 +220,10 @@
   margin-left: 400px;
 }
 .boxes-md {
-  float: right;
+  z-index: 2;
+  position: absolute;
+  margin-left: calc(100vw - 92px);
   margin-top: 1550px;
-  margin-right: -33px;
 }
 .lg {
   position: absolute;
@@ -227,9 +231,10 @@
   margin-left: 650px;
 }
 .boxes-lg {
-  float: right;
+  z-index: 2;
+  position: absolute;
+  margin-left: calc(100vw - 92px);
   margin-top: 2150px;
-  margin-right: -33px;
 }
 .xl {
   position: absolute;
@@ -237,9 +242,10 @@
   margin-left: 550px;
 }
 .boxes-xl {
-  float: right;
+  z-index: 2;
+  position: absolute;
+  margin-left: calc(100vw - 92px);
   margin-top: 2600px;
-  margin-right: -33px;
 }
 .footer-background {
   background-color: #010101;
