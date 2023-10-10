@@ -2,17 +2,18 @@
   background: #b1a188;
   width: 100vw;
   height: 120vh;
-  box-sizing: border-box;
+  padding-bottom: 10%;
+
 }
 .long-background{
   background: #b1a188;
   width: 100vw;
   height: 210vh;
-  box-sizing: border-box;
+  padding-bottom: 10%;
 }
-.big-box {
+.big-box-sizes {
   width: 100vw;
-  padding: 0 4%;
+  padding: 0 4% 10% 0;
   box-sizing: border-box;
   display: flex;
 }
@@ -131,7 +132,7 @@
 .single-box-large{
   width: 162px;
   display: flex;
-  margin-right: 12px;
+  margin-right: 12px; 
 }
 .single-box-large-wide {
   width: 188px;
@@ -143,4 +144,128 @@
   position: absolute;
   margin-left: calc(100vw - 33px);
   margin-top: 450px;
+}
+@media only screen and (min-width: 1081px) and (max-width: 1261px) {
+  .background{
+    height: 140vh;
+  }
+  .boxes-in-page{
+    margin-top: 400px;
+  }
+  .side-bar{
+    width: 320px;
+  }
+  .size-name{
+    font-size: 270px;
+    width: 320px;
+  }
+  .copy{
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .img-box{
+    flex-wrap: wrap;
+  }
+  .single-box-large{
+    min-width: 140px;
+    max-width: 140px;
+    margin-left: 6px;
+  }
+  .single-box-large-wide{
+    width: 150px;
+  }
+  .single-box-large-wide img{
+    width: 100%;
+  }
+  .long-background{
+    height: 280vh;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+  .long-background{
+    height: 230vh;
+  }
+  .background{
+    height: 170vh;
+  }
+  .side-bar{
+    width: 280px;
+  }
+  .size-name{
+    font-size: 230px;
+    width: 280px;
+  }
+  .copy{
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .img-box{
+    flex-wrap: wrap;
+  }
+  .img-box img{
+    width: 130px;
+  }
+ .single-box-m-tall{
+  width: 120px;
+ }
+ .single-box-m-tall img{
+  width: 100%;
+ }
+ .single-box-large-wide{
+  width: 120px;
+}
+.single-box-large-wide img{
+  width: 100%;
+}
+.single-box-large{
+  width:130px ;
+}
+.single-box-m img{
+  width: 250px;
+}
+
+}
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .long-background{
+    height: 300vh;
+  }
+  .background{
+    height: 150vh;
+  }
+  .side-bar{
+    max-width: 220px;
+  }
+  .size-name{
+    font-size: 160px;
+    width: 220px;
+  }
+  .copy{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .volver{
+    margin-left: 30px;
+  }
+  .img-box{
+    flex-wrap: wrap;
+  }
+  .single-box-m-tall{
+    width: 100px ;
+  }
+  .single-box-m-tall img{
+    width: 100px ;
+  }
+  .single-box-large{
+    width: 100px;
+  }
+  .single-box-large img{
+    width: 100%;
+  }
+  .boxes-in-page{
+    margin-top: 350px ;
+  }
 }
