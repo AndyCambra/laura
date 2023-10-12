@@ -146,9 +146,14 @@
 .section-two {
   background-image: url(../../../public/img/Sizes.png);
   width: 100vw;
-  height: 3200px;
   background-size: cover;
   margin: 0;
+}
+.box{
+  width: 100vw;
+  height: 50%;
+  display: flex;
+  justify-content:space-between ;
 }
 .size-text {
   color: #e0d4b9;
@@ -157,19 +162,12 @@
   font-size: 28px;
   line-height: 30px;
 }
-.big-box {
-  width: 100%;
-}
 .xs {
-  position: absolute;
-  margin-top: 570px;
-  margin-left: 370px;
+  margin-top: 40%;
+  margin-left: 25%;
 }
 .boxes-xs {
-  margin-top: 500px;
-  z-index: 2;
-  position: absolute;
-  margin-left: calc(100vw - 92px);
+  margin-top: 35%;
 }
 .square {
   width: 33px;
@@ -204,48 +202,33 @@
   margin-top: 0;
 }
 .sm {
-  position: absolute;
-  margin-top: 1000px;
-  margin-left: 550px;
+  margin-top: 20%;
+  margin-left: 40%;
 }
 .boxes-sm {
-  z-index: 2;
-  position: absolute;
-  margin-left: calc(100vw - 92px);
-  margin-top: 930px;
+  margin-top: 16%;
 }
 .md {
-  position: absolute;
-  margin-top: 1600px;
-  margin-left: 300px;
+  margin-top: 30%;
+  margin-left: 20%;
 }
 .boxes-md {
-  z-index: 2;
-  position: absolute;
-  margin-left: calc(100vw - 92px);
-  margin-top: 1550px;
+  margin-top: 25%;
 }
 .lg {
-  position: absolute;
-  margin-top: 2200px;
-  margin-left: 600px;
+  margin-top: 30%;
+  margin-left: 45%;
 }
 .boxes-lg {
-  z-index: 2;
-  position: absolute;
-  margin-left: calc(100vw - 92px);
-  margin-top: 2150px;
+  margin-top: 25%;
 }
 .xl {
-  position: absolute;
-  margin-top: 2660px;
-  margin-left: 500px;
+  margin-top: 22%;
+  margin-left: 38%;
+  margin-bottom: 30%;
 }
 .boxes-xl {
-  z-index: 2;
-  position: absolute;
-  margin-left: calc(100vw - 92px);
-  margin-top: 2600px;
+  margin-top: 17%;
 }
 .footer-background {
   background-color: #010101;
@@ -320,48 +303,11 @@
   .boxes-two {
     padding-top: 650px;
   }
-  .section-two {
-    height: 2600px;
-  }
   .size-text {
     font-size: 20px;
     line-height: 22px;
   }
-  .xs {
-    margin-top: 450px;
-    margin-left: 430px;
-  }
-  .boxes-xs {
-    margin-top: 400px;
-  }
-  .sm {
-    margin-top: 800px;
-    margin-left: 500px;
-  }
-  .boxes-sm {
-    margin-top: 730px;
-  }
-  .md {
-    margin-top: 1250px;
-    margin-left: 300px;
-  }
-  .boxes-md {
-    margin-top: 1150px;
-  }
-  .lg {
-    margin-top: 1730px;
-    margin-left: 480px;
-  }
-  .boxes-lg {
-    margin-top: 1650px;
-  }
-  .xl {
-    margin-top: 2070px;
-    margin-left: 420px;
-  }
-  .boxes-xl {
-    margin-top: 2000px;
-  }
+
   .mail {
     margin-top: -140px;
     margin-left: 500px;
@@ -447,47 +393,9 @@
   .boxes-two {
     padding-top: 600px;
   }
-  .section-two {
-    height: 2100px;
-  }
   .size-text {
     font-size: 18px;
     line-height: 20px;
-  }
-  .xs {
-    margin-top: 370px;
-    margin-left: 370px;
-  }
-  .boxes-xs {
-    margin-top: 300px;
-  }
-  .sm {
-    margin-top: 660px;
-    margin-left: 400px;
-  }
-  .boxes-sm {
-    margin-top: 600px;
-  }
-  .md {
-    margin-top: 1020px;
-    margin-left: 250px;
-  }
-  .boxes-md {
-    margin-top: 950px;
-  }
-  .lg {
-    margin-top: 1410px;
-    margin-left: 405px;
-  }
-  .boxes-lg {
-    margin-top: 1300px;
-  }
-  .xl {
-    margin-top: 1690px;
-    margin-left: 350px;
-  }
-  .boxes-xl {
-    margin-top: 1620px;
   }
   .mail {
     margin-top: -140px;
@@ -544,107 +452,7 @@
     margin-left: 170px;
   }
 }
-@media only screen and (min-width: 1081px) and (max-width: 1261px){
-    .section-one{
-        height: 1000px;
-    }
-    .title-one{
-        font-size: 70px;
-        margin: -60px 0 0 430px;
-    }
-    .title-two{
-        font-size: 110px;
-        margin: 190px 0 0 181px;
-    }
-    .title-three{
-        font-size: 140px;
-        margin: 270px 0 0 352px;
-    }
-    .title-four{
-        font-size: 200px;
-        margin: 370px 0 0 172px;
-    }
-    .copy-one{
-        width: 400px;
-        font-size: 13px;
-        line-height: 16px;
-        margin: 230px 0 0 575px;
-    }
-    .copy-one-bis{
-        width: 400px;
-        font-size: 13px;
-        line-height: 16px;
-        margin: 262px 0 0 575px;
-    }
-    .copy-two{
-        width: 270px;
-        font-size: 13px;
-        line-height: 16px;
-        margin: 324px 0 0 80px;
-    }
-    .copy-three{
-        width: 360px;
-        font-size: 13px;
-        line-height: 16px;
-        margin: 438px 0 0 685px;
-    }
-    .copy-four{
-        width: 440px;
-        font-size: 13px;
-        line-height: 16px;
-        margin: 596px 0 0 180px;
-    }
-    .boxes-two{
-        padding-top: 650px;
-    }
-    .section-two{
-        height:2600px;
-    }
-    .size-text{
-       font-size: 20px;
-       line-height: 22px;
-    }
-    .xs{
-        margin-top: 450px;
-        margin-left: 430px;
-      }
-    .boxes-xs{
-          margin-top: 400px;
-      }
-    .sm{
-        margin-top: 800px;
-        margin-left: 500px;
-    }
-    .boxes-sm{
-        margin-top: 730px;
-    }
-    .md{
-        margin-top: 1250px;
-        margin-left: 300px;
-    }
-    .boxes-md{
-        margin-top: 1150px;
-    }
-    .lg{
-        margin-top: 1730px;
-        margin-left: 480px;
-    }
-    .boxes-lg{
-        margin-top: 1650px;
-    }
-    .xl{
-        margin-top: 2070px;
-        margin-left: 420px;
-    }
-    .boxes-xl{
-        margin-top: 2000px;
-    }
-    .mail{
-        margin-top: -140px;
-        margin-left: 500px;
-    }
 
-}
 @media only screen and (min-width: 768px) and (max-width: 1080px){
     .background-img{
         width: 100vw;
@@ -726,46 +534,32 @@
         padding-top: 600px;
     }
     .section-two{
-        height:2100px;
+        height:2600px;
+    }
+    .box{
+      height: 20%;
+    }
+    .xs{
+      margin-top: 50%;
+    }
+    .sm{
+      margin-top: 30%;
+    }
+    .lg{
+      margin-top: 20%;
+    }
+    .boxes-lg{
+      margin-top: 10%;
+    }
+    .xl{
+      margin-top: 0;
+    }
+    .boxes-xl{
+      margin-top: 0;
     }
     .size-text{
        font-size: 18px;
        line-height: 20px;
-    }
-    .xs{
-        margin-top: 370px;
-        margin-left: 370px;
-      }
-    .boxes-xs{
-          margin-top: 300px;
-      }
-    .sm{
-        margin-top: 660px;
-        margin-left: 400px;
-    }
-    .boxes-sm{
-        margin-top: 600px;
-    }
-    .md{
-        margin-top: 1020px;
-        margin-left: 250px;
-    }
-    .boxes-md{
-        margin-top: 950px;
-    }
-    .lg{
-        margin-top: 1410px;
-        margin-left: 405px;
-    }
-    .boxes-lg{
-        margin-top: 1300px;
-    }
-    .xl{
-        margin-top: 1690px;
-        margin-left: 350px;
-    }
-    .boxes-xl{
-        margin-top: 1620px;
     }
     .mail{
         margin-top: -140px;

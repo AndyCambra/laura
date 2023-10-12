@@ -25,7 +25,7 @@ const SizesDetail = ({innerRefs}) => {
       sizeM={selectedSize.id === 3 && selectedSize.size} 
       sizeL={selectedSize.id === 4 && selectedSize.size} 
       sizeXl={selectedSize.id === 5 && selectedSize.size}/>
-      <div className="big-box">
+      <div className="big-box-sizes">
         <div className="side-bar">
           <h1 className="size-name">{selectedSize.size}</h1>
           <p className="copy" dangerouslySetInnerHTML={{ __html: selectedSize.copy }}></p>
@@ -35,9 +35,9 @@ const SizesDetail = ({innerRefs}) => {
         <InnerHeader size={selectedSize.size}/>
         <LineSection firstLine={selectedSize.firstLine} secondLine={selectedSize.secondLine} thirdLine={selectedSize.thirdLine} forthLine={selectedSize.forthLine} fifthLine={selectedSize.fifthLine} sixthLine={selectedSize.sixthLine}
         className1={(selectedSize.id === 1 && "single-box") || (selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m")  || ( selectedSize.id === 5 && "single-box-large")} 
-        className2={(selectedSize.id === 1 && "single-box") || (selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m") || ( selectedSize.id === 4 && "single-box-large") || ( selectedSize.id === 5 && "single-box-large")} 
+        className2={(selectedSize.id === 1 && "single-box") || (selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m") || ( selectedSize.id === 5 && "single-box-large")} 
         className3={(selectedSize.id === 1 && "single-box") || (selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m-tall") || ( selectedSize.id === 4 && "single-box-large-wide") || ( selectedSize.id === 5 && "single-box-large")}
-        className4={(selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m-tall")}
+        className4={(selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m-tall")  || ( selectedSize.id === 4 && "single-box-large-wide")}
         className5="single-box-m-tall" className6={"single-box-m-tall"}/>
       </section>
     </div>
