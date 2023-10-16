@@ -9,7 +9,7 @@ const InnerHeader = ({size}) => {
  
   return (
     <div className="inner-header">
-      <Link className={parseInt(id) === 1 ? "active" : "inner-items"} to='/sizes/1'>SX</Link>
+      <Link className={parseInt(id) === 1 ? "active" : "inner-items"} to='/sizes/1'>XS</Link>
       <Link className={parseInt(id) === 2 ? "active" : "inner-items"} to='/sizes/2'>S</Link>
       <Link className={parseInt(id) === 3 ? "active" : "inner-items"} to='/sizes/3'>M</Link>
       <Link className={parseInt(id) === 4 ? "active" : "inner-items"} to='/sizes/4'>L</Link>

@@ -7,7 +7,7 @@ import LineSection from "../Utils/ImgLines/LineSection";
 import { useParams, Link } from 'react-router-dom'
 import Footer from "../Home/Footer";
 
-const SizesDetail = ({innerRefs}) => {
+const SizesDetail = () => {
   const {id} = useParams()
   const text=sizesPageTexts
   const selectedSize = text.sizes.find(p=> p.id=== parseInt(id))
@@ -15,6 +15,7 @@ const SizesDetail = ({innerRefs}) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
 
   return (
     <>
@@ -29,7 +30,7 @@ const SizesDetail = ({innerRefs}) => {
         <div className="side-bar">
           <h1 className="size-name">{selectedSize.size}</h1>
           <p className="copy" dangerouslySetInnerHTML={{ __html: selectedSize.copy }}></p>
-          <Link to='/' className="volver">HOME</Link>
+          <Link to={`/#sizes-section-${selectedSize.id}`} className="volver">VOLVER</Link>
       </div>
       <section className="image-section">
         <InnerHeader size={selectedSize.size}/>
