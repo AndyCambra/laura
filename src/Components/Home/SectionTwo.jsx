@@ -8,6 +8,7 @@ const SectionTwo = forwardRef(({idXs, idS, idM, idL, idXl}, ref) => {
     <section className="section-two" ref={ref}>
       <div className="box" id={idXs}>
         <div className="xs">
+          
           <p className="size-text">El nombre de un producto.</p>
           <p className="size-text">La línea de llegada de un proceso</p>
           <p className="size-text">que define un concepto y una identidad.</p>

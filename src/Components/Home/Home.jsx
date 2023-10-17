@@ -21,7 +21,7 @@ const Home = () => {
       } 
       useEffect(() => {
         if (location.hash) {
-          const sectionId = location.hash.substring(1); // Remove the '#' symbol
+          const sectionId = location.hash.substring(1);
           const element = document.getElementById(sectionId);
     
           if (element) {
