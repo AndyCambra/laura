@@ -1,60 +1,50 @@
 import React, { forwardRef } from "react";
 import Boxes from "../Utils/Boxes";
-import { isMobile } from "react-device-detect";
+import { isMobileOnly } from "react-device-detect";
 import { Link } from "react-router-dom";
 
-const SectionTwo = forwardRef((props, ref) => {
+
+const SectionTwo = forwardRef(({idXs, idS, idM, idL, idXl}, ref) => {
   return (
     <section className="section-two" ref={ref}>
-      <div className="box">
+        <div className="over-img">
+      <div className="box" id={idXs}>
         <div className="xs">
-          <p className="size-text">El nombre de un producto.</p>
-          <p className="size-text">La línea de llegada de un proceso</p>
-          <p className="size-text">que define un concepto y una identidad.</p>
+          <p className="size-text" dangerouslySetInnerHTML={{ __html: "El nombre de un producto. <br>La línea de llegada de un proceso<br> que define un concepto y una identidad." }}></p>
           <Link to='/sizes/1'><p className="see-more">ver más...</p></Link>
         </div>
-        {isMobile ? null : <Boxes classNameBoxes="boxes-xs" sizeXs="XS" />}
+        {isMobileOnly ? null : <Boxes classNameBoxes="boxes-xs" sizeXs="XS" />}
       </div>
-      <div className="box">
-        <div className="sm">
-          <p className="size-text">Un titular. Un copy.</p>
-          <p className="size-text">Un post en redes.</p>
-          <p className="size-text">Impacto. Potencia. Recordación.</p>
+      <div className="box" id={idS}>
+        <div className="sm" id="sizes-section-2">
+          <p className="size-text"  dangerouslySetInnerHTML={{ __html: "Un tilular. Un copy. <br>Un post en redes.<br> Impacto. Potencia. Recordación." }}></p>
           <Link to='/sizes/2'><p className="see-more">ver más...</p></Link>
         </div>
-        {isMobile ? null : <Boxes classNameBoxes="boxes-sm" sizeS="S" />}
+        {isMobileOnly ? null : <Boxes classNameBoxes="boxes-sm" sizeS="S" />}
       </div>
-      <div className="box">
-        <div className="md">
-          <p className="size-text">El guión de un comercial de radio o TV. </p>
-          <p className="size-text">Allí donde la letra se hace voz</p>
-          <p className="size-text">y las palabras se ponen en movimiento. </p>
+      <div className="box" id={idM}>
+        <div className="md" id="sizes-section-3">
+          <p className="size-text" dangerouslySetInnerHTML={{ __html: "El guión de un comercial de radio o TV. <br>Allí donde la letra se hace voz <br> y las palabras se ponen en movimiento." }}></p>
           <Link to='/sizes/3'><p className="see-more">ver más...</p></Link>
         </div>
-        {isMobile ? null : <Boxes classNameBoxes="boxes-md" sizeM="M" />}
+        {isMobileOnly ? null : <Boxes classNameBoxes="boxes-md" sizeM="M" />}
       </div>
-      <div className="box">
-        <div className="lg">
-          <p className="size-text">
-            Una columna editorial o un manual de marca.{" "}
-          </p>
-          <p className="size-text">Ideas que se ordenan para sostener </p>
-          <p className="size-text">
-            un argumento o para definir una normativa.
-          </p>
-          <Link to='/sizes/4'><p className="see-more">ver más...</p></Link>
+      <div className="box" id={idL}>
+        <div className="lg" id="sizes-section-4">
+          <p className="size-text" dangerouslySetInnerHTML={{ __html: "Una columna editorial o un manual de marca.<br> Ideas que se ordenan para sostener <br>  un argumento o para definir una normativa." }}></p>
+         <Link to='/sizes/4'><p className="see-more">ver más...</p></Link>
         </div>
-        {isMobile ? null : <Boxes classNameBoxes="boxes-lg" sizeL="L" />}
+        {isMobileOnly ? null : <Boxes classNameBoxes="boxes-lg" sizeL="L" />}
       </div>
-      <div className="box">
-        <div className="xl">
-          <p className="size-text">Un libro. El despliegue de una pasión,</p>
-          <p className="size-text">de una experiencia singular </p>
-          <p className="size-text">o de saberes únicos.</p>
+      <div className="box" id={idXl}>
+        <div className="xl" id="sizes-section-5">
+          <p className="size-text"dangerouslySetInnerHTML={{ __html: "Un libro. El despliegue de una pasión,<br>de una experiencia singular<br>o de saberes únicos. " }}></p>
           <Link to='/sizes/5'><p className="see-more">ver más...</p></Link>
         </div>
-        {isMobile ? null : <Boxes classNameBoxes="boxes-xl" sizeXl="XL" />}
+        {isMobileOnly ? null : <Boxes classNameBoxes="boxes-xl" sizeXl="XL" />}
       </div>
+      </div>
+      <img src='/img/Sizes.png' alt="" />
     </section>
   );
 });

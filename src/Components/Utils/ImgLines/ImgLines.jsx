@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ImgLines = ({list, className}) => {
+const ImgLines = ({list, className, classNameBox}) => {
   return (
 
-              <div className="img-box">
+              <div className={classNameBox}>
                 {list.map((item, key) => {
                   return (
                     <div className={className} key={key}>
