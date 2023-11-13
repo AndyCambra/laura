@@ -128,13 +128,18 @@
                 "/img/XLarge/Olivan.png",
                 "/img/XLarge/corazonenllamas.png",
                 "/img/XLarge/BluesdelacalleLeiva.png",
-                "/img/XLarge/Callejeros.png"
+                "/img/XLarge/Idea.png"
+                
             ],
             "thirdLine": [
-                "/img/XLarge/sueñospostergados.png",
+                "/img/XLarge/sueñospostergados.png",  
+                "/img/XLarge/ModeloHumanista.png"
+                
+            ],
+            "forthLine":[
                 "/img/XLarge/FundaciónVictoriaOcampopremiada.png",
-                "/img/XLarge/ModeloHumanista.png",
-                "/img/XLarge/Idea.png"
+                "/img/XLarge/Music&Youth.png",
+                "/img/XLarge/Callejeros.png"
             ]
         }
     ]

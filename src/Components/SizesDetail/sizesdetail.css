@@ -138,6 +138,9 @@
   display: flex;
   margin-right: 12px; 
 }
+.single-box-large img{
+width: 100%;
+}
 .single-box-large-wide {
   width: 188px;
   display: flex;
