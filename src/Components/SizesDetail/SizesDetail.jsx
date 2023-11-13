@@ -58,7 +58,7 @@ const SizesDetail = () => {
         className1={(selectedSize.id === 1 && "single-box") || (selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m-med")  || ( selectedSize.id === 5 && "single-box-large")} 
         className2={(selectedSize.id === 1 && "single-box") || (selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m") || ( selectedSize.id === 5 && "single-box-large")} 
         className3={(selectedSize.id === 1 && "single-box") || (selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m") || ( selectedSize.id === 4 && "single-box-large-wide") || ( selectedSize.id === 5 && "single-box-large")}
-        className4={(selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m-tall")  || ( selectedSize.id === 4 && "single-box-large-wide")}
+        className4={(selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m-tall")  || ( selectedSize.id === 4 && "single-box-large-wide") || ( selectedSize.id === 5 && "single-box-large")}
         className5="single-box-m-tall" className6={"single-box-m-tall"}/>
          <Boxes classNameBoxes="boxes-in-page" 
       sizeXs={selectedSize.id === 1 && selectedSize.size} 
