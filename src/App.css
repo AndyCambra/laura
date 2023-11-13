@@ -4,13 +4,18 @@
 
 body{
   font-family: 'Prompt', sans-serif;
-
+  background-color: #0C0A07;
 }
 a{
   text-decoration: none;
 }
 h1{
   margin: 0;
+}
+.app{
+  max-width: 1440px;
+  margin: 0 auto;
+  
 }
 .icon {
   margin-top: 16px;

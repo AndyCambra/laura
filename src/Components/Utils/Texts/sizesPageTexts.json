@@ -52,30 +52,34 @@
             "size": "M",
             "copy": "Un lugar, un tiempo, voces y actitudes para transformar un mensaje en una historia que produce impacto y crea un recuerdo. ",
             "firstLine": [
+                "/img/Medium/4promocion.png",
+                "/img/Medium/16Repsol2.png",
+                "/img/Medium/21Toren2.png"
+            ],
+            "secondLine": [
                 "/img/Medium/M01.png",
                 "/img/Medium/M02.png",
                 "/img/Medium/M03.png"
-            ],
-            "secondLine": [
-                "/img/Medium/M04.png",
-                "/img/Medium/M06.png"
+                
             ],
             "thirdLine": [
+                "/img/Medium/M04.png",
+                "/img/Medium/M06.png"
+               
+            ],
+            "forthLine": [
                 "/img/Medium/M07.png",
                 "/img/Medium/M08.png",
                 "/img/Medium/M09.png",
                 "/img/Medium/M10.png"
+              
             ],
-            "forthLine": [
+            "fifthLine": [
                 "/img/Medium/M11.png",
                 "/img/Medium/M12.png",
                 "/img/Medium/M13.png",
                 "/img/Medium/M14.png"
-            ],
-            "fifthLine": [
-                "/img/Medium/M15.png",
-                "/img/Medium/M16.png",
-                "/img/Medium/M17.png"
+               
             ],
             "sixthLine": [
                 "/img/Medium/M18.png",
@@ -128,7 +132,9 @@
             ],
             "thirdLine": [
                 "/img/XLarge/sueñospostergados.png",
-                "/img/XLarge/FundaciónVictoriaOcampopremiada.png"
+                "/img/XLarge/FundaciónVictoriaOcampopremiada.png",
+                "/img/XLarge/ModeloHumanista.png",
+                "/img/XLarge/Idea.png"
             ]
         }
     ]

@@ -13,7 +13,7 @@
   color: #2fa5be;
   position: absolute;
   margin-top: -50px;
-  margin-left: 220px;
+  margin-left: 200px;
 }
 .menu-mobile {
   display: flex;
@@ -35,7 +35,7 @@
   margin-top: 240px;
 }
 .boxes-mobile {
-  margin-top: 400px;
+  margin-top: 380px;
   float: right;
 }
 .section-one-mobile {
@@ -92,3 +92,5 @@
   float: right;
   margin-top: 20px;
 }
+
+

@@ -7,6 +7,7 @@ import SizesDetail from "./Components/SizesDetail/SizesDetail";
 
 function App() {
   return (
+    <div className="app">
     <BrowserRouter>
       <Routes>
         <Route exact path="/sizes/:id" element={<SizesDetail />} />
@@ -14,6 +15,7 @@ function App() {
       </Routes>
       <ScrollToTop />
     </BrowserRouter>
+    </div>
   );
 }
 
