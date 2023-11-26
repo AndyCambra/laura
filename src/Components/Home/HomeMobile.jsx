@@ -18,7 +18,7 @@ const HomeMobile = ({handleClick, secOneRef, secTwoRef, footerRef}) => {
         <Link><h4 className='menu-item-mobile' onClick={() => handleClick(footerRef)}>CONTACTO</h4></Link>
         </div>
         <img src={Bubbles} className='home-bubble' alt=""></img>
-        <h2 className='home-mobile-title'>Laura Cambra</h2>
+      {/*   <h2 className='home-mobile-title'>Laura Cambra</h2> */}
         <Boxes classNameBoxes='boxes-mobile' />
         <div className='home-text-mobile'>
             <p className='text'>Copywriting</p>

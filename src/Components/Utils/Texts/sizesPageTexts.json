@@ -63,29 +63,28 @@
                 
             ],
             "thirdLine": [
-                "/img/Medium/M04.png",
-                "/img/Medium/M06.png"
-               
-            ],
-            "forthLine": [
                 "/img/Medium/M07.png",
                 "/img/Medium/M08.png",
                 "/img/Medium/M09.png",
                 "/img/Medium/M10.png"
-              
+               
             ],
-            "fifthLine": [
+            "forthLine": [
                 "/img/Medium/M11.png",
                 "/img/Medium/M12.png",
                 "/img/Medium/M13.png",
                 "/img/Medium/M14.png"
-               
+              
             ],
-            "sixthLine": [
+            "fifthLine": [
                 "/img/Medium/M18.png",
                 "/img/Medium/M19.png",
                 "/img/Medium/M20.png",
                 "/img/Medium/M21.png"
+               
+            ],
+            "sixthLine": [
+               "/img/Medium/Ruralfrente.png"
             ]
         },
         {

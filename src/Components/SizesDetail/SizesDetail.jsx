@@ -36,9 +36,10 @@ const SizesDetail = () => {
         classNameBox="mobile-img-box"
         className1={(selectedSize.id === 1 && "single-box-mobile") || (selectedSize.id === 2 && "single-box-small-m")  || ( selectedSize.id === 5 && "single-box-large-m") || ( selectedSize.id === 4 && "single-box-large-m")} 
         className2={(selectedSize.id === 1 && "single-box-mobile") || (selectedSize.id === 2 && "single-box-small-m") || ( selectedSize.id === 3 && "single-box-m") || ( selectedSize.id === 5 && "single-box-large-m") || ( selectedSize.id === 4 && "single-box-large-m")} 
-        className3={(selectedSize.id === 1 && "single-box-mobile") || (selectedSize.id === 2 && "single-box-small-m") || ( selectedSize.id === 3 && "single-box-m") || ( selectedSize.id === 4 && "single-box-large-m") || ( selectedSize.id === 5 && "single-box-large-m")}
+        className3={(selectedSize.id === 1 && "single-box-mobile") || (selectedSize.id === 2 && "single-box-small-m") || ( selectedSize.id === 3 && "single-box-large-m") || ( selectedSize.id === 4 && "single-box-large-m") || ( selectedSize.id === 5 && "single-box-large-m")}
         className4={(selectedSize.id === 2 && "single-box-small-m-4") || ( selectedSize.id === 3 && "single-box-large-m")  || ( selectedSize.id === 4 && "single-box-large-m-4")}
-        className5="single-box-large-m" className6={"single-box-large-m"}/>
+        className5="single-box-large-m" 
+        className6="single-box-last-m" />
       </section>
       <Link to={`/#sizes-section-${selectedSize.id}`} className="mobile-back">VOLVER</Link>
     </div>
@@ -57,9 +58,10 @@ const SizesDetail = () => {
         classNameBox="img-box"
         className1={(selectedSize.id === 1 && "single-box") || (selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m-med")  || ( selectedSize.id === 5 && "single-box-large")} 
         className2={(selectedSize.id === 1 && "single-box") || (selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m") || ( selectedSize.id === 5 && "single-box-large")} 
-        className3={(selectedSize.id === 1 && "single-box") || (selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m") || ( selectedSize.id === 4 && "single-box-large-wide") || ( selectedSize.id === 5 && "single-box-large")}
+        className3={(selectedSize.id === 1 && "single-box") || (selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m-tall") || ( selectedSize.id === 4 && "single-box-large-wide") || ( selectedSize.id === 5 && "single-box-large")}
         className4={(selectedSize.id === 2 && "single-box-small") || ( selectedSize.id === 3 && "single-box-m-tall")  || ( selectedSize.id === 4 && "single-box-large-wide") || ( selectedSize.id === 5 && "single-box-large")}
-        className5="single-box-m-tall" className6={"single-box-m-tall"}/>
+        className5="single-box-m-tall" 
+        className6="single-box-m-med"/>
          <Boxes classNameBoxes="boxes-in-page" 
       sizeXs={selectedSize.id === 1 && selectedSize.size} 
       sizeS={selectedSize.id === 2 && selectedSize.size}

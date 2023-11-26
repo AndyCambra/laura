@@ -42,7 +42,7 @@ const Home = () => {
         <Link><h4 className='menu-item' onClick={() => handleClick(secOneRef)}>SOBRE MI</h4></Link>
         <Link><h4 className='menu-item' onClick={() => handleClick(secTwoRef)}>TRABAJOS</h4></Link>
         <Link><h4 className='menu-item' onClick={() => handleClick(footerRef)}>CONTACTO</h4></Link>
-        <Link><h4 className='menu-item'>BLOG</h4></Link>
+       {/*  <Link><h4 className='menu-item'>BLOG</h4></Link> */}
         </div>
        
         <h2 className='home-title'>Laura Cambra</h2>
