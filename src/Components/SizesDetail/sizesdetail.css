@@ -134,12 +134,12 @@
   margin-right: 12px;
 }
 .single-box-large{
-  width: 162px;
-  display: flex;
+  width: 25%;
   margin-right: 12px; 
 }
 .single-box-large img{
-width: 100%;
+max-width: 100%;
+min-width: 80%;
 }
 .single-box-large-wide {
   width: 188px;
@@ -164,8 +164,6 @@ width: 100%;
     flex-wrap: wrap;
   }
   .single-box-large{
-    min-width: 140px;
-    max-width: 140px;
     margin-left: 6px;
   }
   .single-box-large-wide{
